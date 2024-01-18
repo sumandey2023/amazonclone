@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+   
+}
+.logo{
+    height: 50px;
+    width: 113px;
+}
+.location{
+    color: white;
+
+}
+.searchbar{
+    display: flex;
+    cursor: pointer;
+}
+.searchbar:hover{
+    border: 2px solid orange;
+}
+.all{
+    width: 50px;
+    height: 36px;
+    margin-left: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius:5px ;
+    text-align: center;
+    border: none;
+    background-color: #f3f3f3;
+}
+.search{
+    width:750px;
+    height: 36px;
+    border: none;
+    font-size: 1rem;
+}
+.border{
+    border: 1.5px solid transparent;
+    cursor: pointer;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.location2{
+    display: flex;
+}
+.addressfirst{
+    margin-left: 15px;
+}
+.addresssecond{
+    margin-left: 5px;
+}
+
+.searchicon{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius:5px ;
+    
+}
+.language{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+}
+.flag{
+    width: 25px;
+    height: 18px;
+    margin-left: 30px;
+    margin-right: 5px;
+}
+.signin{
+    color: white;
+    margin-left: 21px;
+    font-size: small;
+}
+.Account{
+    color: white;
+   font-weight: bolder; 
+   margin-left: 21px;
+}
+.cart{
+    color: white;
+    display: flex;
+    margin-left: 25px;
+}
+.carticon{
+    font-size: 1.8rem;
+}
+.c1{
+    margin-left: 5px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel2 a{
+    display: inline;
+    margin-left: 12px;
+}
+.panel2{
+    width: 92%;
+}
+
+.image-list{
+display: flex;
+}
+.image-item{
+    width: 100%;
+    transform: translateX(-300);
+}
+.image-item img{
+    height: 100%;
+    width: 100%;
+}
+.image-btn-container{
+    position: absolute;
+   top: 13.5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider-btn{
+height: 250px;
+width: 75px;
+border: none;
+background: transparent;
+font-size: 3rem;
+}
+
+.slider-btn:focus{
+    border: solid seagreen;
+    box-shadow: -2px -2px 2px white,
+    2px 2px 2px white;
+margin: 4px;
+}
+
+.border2{
+    cursor: pointer;
+}
+.hero-section{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height: 300px;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{  
+    width: 23%;
+    height: 420px;
+  margin-top: 17px;
+  background-color: white;
+  padding: 20px 0px 15px;
+}
+.box-img{
+    height: 310px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.box-content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box-content p{
+    color: blue;
+    margin-top: 10px;
+}
+.shop-section3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+        height: 50px;
+        width: 113px;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+}
+.pages{
+font-size: 0.85rem;
+text-align: center;
+padding-top: 25px;
+}
+.copyright{
+font-size: 0.85rem;
+text-align: center;
+padding-top: 5px;
+}
